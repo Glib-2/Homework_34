@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+
+        .header {
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            background-color: rgb(51, 145, 90);
+        }
+
+        .hero {
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        .about {
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            background-color: rgb(52, 131, 131);
+        }
+
+        .cards {
+            width: 100%;
+            height: 400px;
+            background-color: rgb(111, 184, 29);
+            display: flex;
+            justify-content: center;
+        }
+
+        .first-cards{
+            display: grid;
+            grid-template-columns: 2fr, 1fr;
+            gap: 40px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .last-cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .card{
+            background-color: cornflowerblue;
+            width: 250px;
+            height: 80px;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .big-card{
+            background-color: cornflowerblue;
+            width: 500px;
+            height: 80px;
+            
+            margin-top: 50px;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .card-2{
+            margin: 50px;
+            background-color: cornflowerblue;
+            width: 250px;
+            height: 80px;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        header
+    </div>
+    <div class="hero">
+        hero
+    </div>
+    <div class="about">
+        about
+    </div>
+    <div class="cards">
+        cards
+        <div class="first-cards">
+            <div class="big-card">hello</div>
+            <div class="card-2">friend</div>
+        </div>
+        <div class="last_cards">
+        <div class="card">call</div>
+        <div class="card">call</div>
+        <div class="card">me</div>
+        </div>
+    </div>
+    <div>
+        footer
+    </div>
+</body>
+
+</html>
